@@ -113,12 +113,12 @@ Handlebars and Assemble are used for templating.
 
 `/emails` is where your email content will go. To start you off I've included example transactional emails based on my [simple HTML email template](https://github.com/leemunroe/html-email-template).
 
-`/data` contains _optional_ .yml or .json data files that can be used in your templates. It's a good way to store commonly used strings and variables. See `/data/default.yml` and `/partials/follow_lee.hbs` for an example.
+`/data` contains _optional_ .yml or .json data files that can be used in your templates. It's a good way to store commonly used strings and variables. See `/data/default.yml` and `/partials/follow_us.hbs` for an example.
 
-`/partials` contains _optional_ .hbs files that can be thought of like includes. To use a partial, for example `/partials/follow_lee.hbs` you would use the following code in your emails template:
+`/partials` contains _optional_ .hbs files that can be thought of like includes. To use a partial, for example `/partials/follow_us.hbs` you would use the following code in your emails template:
 
 ```hbs
-{{> follow_lee }}
+{{> follow_us }}
 ```
 
 `/partials/components` contains _optional_ .hbs files that can help generate your markup. Each component will typically have a corresponding Sass file in `src/css/sass/<component_name>.scss`. To use a component, for example `/partials/components/button.hbs` you would use the following code in your emails template. _(note: You can use single -or- double quotes for attributes)_

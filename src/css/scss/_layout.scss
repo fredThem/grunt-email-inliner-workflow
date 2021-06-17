@@ -3,11 +3,11 @@
 ------------------------------------- */
 
 body{
-  background-color: $grey;
+  // background-color: $red;
 }
 
 .body {
-  background-color: $grey;
+  background-color: $red;
   width: 100%;
 }
 
@@ -28,7 +28,6 @@ body{
   max-width: $width;
   padding: 10px;
 }
-
 
 /* -------------------------------------
     HEADER, FOOTER, MAIN
@@ -61,11 +60,21 @@ body{
   width: 100%;
 
   * {
-    color: #999999;
+    color: $gray-200;
     font-size: 12px;
   }
 
   td {
     padding: 20px 0;
+  }
+  .social_links a {
+   text-decoration: none; 
+  }
+}
+
+.article {
+  h3 {
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
   }
 }
