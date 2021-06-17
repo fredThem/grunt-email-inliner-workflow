@@ -1,18 +1,26 @@
-# content-absolute_url: "" # "{{ content.absolute_url }}"
-# content-archived: "{{ content.archived }}"
-# content-author_email: "{{ content.author_email }}"
-# content-author_name: "{{ content.author_name }}"
-# content-author_username: "{{ content.author_username }}"
-# content-campaign: "{{ content.campaign }}"
-# content-campaign_name: "{{ content.campaign_name }}"
-# content-created: "{{ content.created }}"
-# content-meta_description: "{{ content.meta_description }}"
-# content-name: "{{ content.name }}"
-# content-publish_date: "{{ content.publish_date }}"
-# content-publish_date_localized: "{{ content.publish_date_localized }}"
-# content-template_path: "{{ content.template_path }}"
-# content-updated: "{{ content.updated }}"
-# content_id: "{{ content_id }}"
-# eastern_dt: "{{ eastern_dt }}"
+newsletter-title: "Choisissez LA saveur de crème glacée de l’été Rouge !"
 
-content-first_title: "Hello world"
+articles:
+  [
+    {
+      title: "Votez pour votre saveur de crème glacée préférée aujourd’hui pour choisir la saveur de l’été Rouge FM",
+      description: "Ne manquez pas lundi prochain la chance de gagner 100 $ de crème glacée chaque heure avec Top Glacier pour célébrer le début de l’été ! Écoutez Rouge au travail avec Julie dès 8 h 20.",
+      cta: "Votez ici",
+      url: "https://www.iheartradio.ca/rouge-fm/rouge-fm-montreal/concours/gagnez-un-congelateur-rempli-de-creme-glacee-une-valeur-de-1200-1.15188884",
+      imgUrl: "https://www.iheartradio.ca/image/policy:1.15191851:1620999948/PROMCR-5181-Rouge-Top-Glacier-16X9.png?a=16%3A9&$p$a=5c1e67e",
+    },
+    {
+      title: "Votez pour votre saveur de votre crème glacée préférée aujourd’hui pour choisir la saveur de l’été rouge!",
+      description: "Dès lundi prochain à 5 h 55, vous pourrez entendre la nouvelle équipe d’été d’On est tous debout pour vous accompagner dans vos journées de travail et de vacances.",
+      cta: "Écoutez ici",
+      url: "https://www.iheartradio.ca/rouge-fm/rouge-fm-montreal/emissions/on-est-tous-debout-1.15425213",
+      imgUrl: "https://www.iheartradio.ca/image/policy:1.15437604:1623939286/On-est-tous-debout-ete2021-16X9.png?w=1361&$p$w=144d9d0",
+    },
+        {
+      title: "Ne manquez pas le quatuor le plus improbable de Jay l’été !",
+      description: "Pour la première de Christiane Charrette à Jay l’été, ses invités n’étaient nul autre que les Denis Drolet pour venir mettre le party en studio ! Ne manquez pas leur conversation hilarante sur les sacres.",
+      cta: "Votez ici",
+      url: "https://www.iheartradio.ca/rouge-fm/rouge-fm-montreal/concours/gagnez-un-congelateur-rempli-de-creme-glacee-une-valeur-de-1200-1.15188884",
+      imgUrl: "https://www.iheartradio.ca/image/policy:1.15335778:1622648010/Rouge-Jay-Ete-Instagram-FB-1080x1080.jpg?w=1080&$p$w=bc79212",
+    },
+  ]
