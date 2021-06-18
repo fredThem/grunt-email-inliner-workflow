@@ -8,6 +8,9 @@ articles:
       cta: "Votez ici",
       url: "https://www.iheartradio.ca/rouge-fm/rouge-fm-montreal/concours/gagnez-un-congelateur-rempli-de-creme-glacee-une-valeur-de-1200-1.15188884",
       imgUrl: "https://www.iheartradio.ca/image/policy:1.15191851:1620999948/PROMCR-5181-Rouge-Top-Glacier-16X9.png?a=16%3A9&$p$a=5c1e67e",
+      # bigbox: {
+      #   src: ""
+      # },
     },
     {
       title: "Votez pour votre saveur de votre crème glacée préférée aujourd’hui pour choisir la saveur de l’été rouge!",
@@ -19,7 +22,7 @@ articles:
         {
       title: "Ne manquez pas le quatuor le plus improbable de Jay l’été !",
       description: "Pour la première de Christiane Charrette à Jay l’été, ses invités n’étaient nul autre que les Denis Drolet pour venir mettre le party en studio ! Ne manquez pas leur conversation hilarante sur les sacres.",
-      cta: "Votez ici",
+      cta: "Écoutez l'extrait",
       url: "https://www.iheartradio.ca/rouge-fm/rouge-fm-montreal/concours/gagnez-un-congelateur-rempli-de-creme-glacee-une-valeur-de-1200-1.15188884",
       imgUrl: "https://www.iheartradio.ca/image/policy:1.15335778:1622648010/Rouge-Jay-Ete-Instagram-FB-1080x1080.jpg?w=1080&$p$w=bc79212",
     },

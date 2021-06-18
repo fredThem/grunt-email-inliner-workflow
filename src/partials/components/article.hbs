@@ -3,12 +3,17 @@
       <table class="article">
         <tr>
           <td>
-            <img src="{{article.imgUrl}}" width="100%" height="auto" alt="Mailgun">
+            <img src="{{article.imgUrl}}" width="100%" height="auto" alt="{{article.title}}">
 
             <h3 class="">{{{article.title}}}</h3>
             <p>{{{article.description}}}</p>
             {{> button type='secondary' }}
             
+
+            {{!-- {{#if article.bigbox}}
+              <img src="{{article.bigbox.src}}" alt="Active">
+            {{/if}} --}}
+
           </td>
         </tr>
       </table>
